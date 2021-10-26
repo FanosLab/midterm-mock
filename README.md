@@ -1,7 +1,7 @@
 # midterm-mock
 
-#Name:
+#Name: Mohamed Hassan
 
-#MAC-ID:
+#MAC-ID: hassam61
 
-#Student-ID:
+#Student-ID: 12345
