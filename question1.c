@@ -6,6 +6,7 @@
 int char_exists(char target, char str[]){
   
   for (int i=0;str[i]!='\0';i++){
+    
     if(str[i]==target){
       return 1;
     }
