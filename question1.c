@@ -5,7 +5,13 @@
 
 int char_exists(char target, char str[]){
   
-  
+  for (int i=0;str[i]!='\0';i++){
+    
+    if(str[i]==target){
+      return 1;
+    }
+    
+  }
   
   return 0;
   
@@ -14,7 +20,15 @@ int char_exists(char target, char str[]){
 
 int main(){
   
- 
+  /*test case found*/
+  
+  char input_str[10]="COMPENG2SH4";
+  char input_char ='E';
+  int expected =1;
+  int actual = char_exists(input_char,input_str);
+  
+  
+  
   
   return 0;
 }
