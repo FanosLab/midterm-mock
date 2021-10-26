@@ -27,6 +27,13 @@ int main(){
   int expected =1;
   int actual = char_exists(input_char,input_str);
   
+  if (actual==expected){
+    printf("Executed correctly\n");
+  }
+  else {
+    printf("ERROR: expected is: %d, while actual is:%d\n",expected,actual);
+  }
+  
   
   
   
